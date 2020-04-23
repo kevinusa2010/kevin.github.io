@@ -1,0 +1,91 @@
+
+@import "index.css";
+@import "contact.css";
+@import "about.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+.container{
+  margin: auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  overflow: auto;
+}
+.gold-text{
+  color: #f7c08a;
+}
+.navbar ul li a:hover, 
+.navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* header */
+ .navbar{
+   background: #333;
+ }
+ .navbar .logo{
+   color: #fff;
+   float: left;
+   padding-top: 20px;
+ }
+ .navbar ul{
+   list-style: none;
+   float: right;
+ }
+ .navbar ul li {
+   /* display: inline-block; */
+   float: left;
+ }
+ .navbar li a{
+   display: block;
+   color: #fff;
+   padding: 20px;
+   text-decoration: none; 
+   text-align: center;
+ }
+ .lead {
+  font-size: 20px;
+  padding-bottom: 30px;
+  line-height: 1.7em;
+}
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  transition: background .5s ease-in , color 1s ease;
+}
+.btn:hover{
+  background: #f7c08a;
+  color: #333;
+}
+.bg-light{
+  display: inline-block;
+ background: #f4f4f4;
+ color: #333;
+}
+.bg-gold{
+  background:#f7c08a ;
+}
+.clr{
+  clear: both;
+}
+footer{
+  background: #444;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}

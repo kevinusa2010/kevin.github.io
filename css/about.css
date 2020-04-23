@@ -1,0 +1,45 @@
+.about-info{
+  padding: 30px 0;
+  background: #8578789d;
+}
+.about-info .info-left{
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+.about-info .info-right{
+  width: 50%;
+  float: right;
+  min-height: 100%;
+}
+.about-info .info-right img{
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+/* section customer */
+.customer{
+  height:100%;
+  background: url('../img/test-bg.jpg') center/cover;
+  padding-top: 100px;
+}
+.customer h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 55px;
+  line-height: 1.2em;
+}
+.customer .customer-say{
+  padding: 20px;
+  background: #f7c08a;
+  margin-bottom: 40px;
+}
+.customer-say img{
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+ 
+}

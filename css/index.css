@@ -1,0 +1,45 @@
+.showcase{
+  background: url('../img/showcase.jpg') center/cover;
+  height: 500px;
+}
+.showcase .showcase-content{
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+.showcase h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+/* home-info*/
+.home-info{
+  height: 450px;
+}
+.home-info .photo-1{
+  background:url('../img/photo-1.jpg') center/cover;
+  min-height: 100%;
+  width: 50%;
+  float: left;
+}
+.home-info .info-content{
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 50px 30px;
+  background: #333;
+  color: #fff;
+  height: 100%;
+  overflow: auto;
+}
+.info-content p{
+  padding-bottom: 30px;
+}
+ .box{
+   width: 33.3%;
+   float: left;
+   height: 250px;
+   text-align: center;
+   padding: 50px;
+ }
+
+
